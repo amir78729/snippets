@@ -9,8 +9,9 @@
 	"Log": {
 		"prefix": "clg",
 		"body": [
-			"console.log(${1:yourText});\n"
+			"console.log(\"%c${1|debug,info,error,warning|}:\", \"color: white; font-weight: 900; background: black; padding: 2px 5px;\", ${2:variable}); // TODO: remove before commit!\n"
 		],
-		"description": "Log on console."
+		"description": "Log on console.",
+		"scope": "typescriptreact, typescript, javascript"
 	}
 }
