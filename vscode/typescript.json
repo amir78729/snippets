@@ -2,8 +2,15 @@
 	"Import Statement": {
 		"prefix": "im",
 		"body": [
-			"import ${2:what} from \"${1:where}\";"
+			"import ${2:what} from \"${1:where}\";\n"
 		],
 		"description": "Type less, import more ✨ — module first, identifier next"
+	},
+	"Log": {
+		"prefix": "clg",
+		"body": [
+			"console.log(${1:yourText});\n"
+		],
+		"description": "Log on console."
 	}
 }
