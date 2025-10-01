@@ -1,0 +1,9 @@
+{
+	"Import Statement": {
+		"prefix": "im",
+		"body": [
+			"import ${2:what} from \"${1:where}\";"
+		],
+		"description": "Type less, import more ✨ — module first, identifier next"
+	}
+}
